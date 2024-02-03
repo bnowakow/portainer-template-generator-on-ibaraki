@@ -10,3 +10,5 @@ curl $url | jq '.' > template.json
 
 echo $url 
 
+curl 'https://templates-portainer.ibaraki.app/' | jq '.' > default.json
+
